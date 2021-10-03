@@ -1,11 +1,14 @@
 	#include <iostream>
-	#include <cmath>
 	#include <vector>
-	#include <string>
 
 	using std::cout;
 
+	
+
 	void board(){
+
+		char character[9] = {'1', '2', '3', '4', '5', '6', '7', '8','9'};
+		
 		cout << "       |       |       \n";
 		cout << "   " << character[0] << "   |   " <<character[1] <<"   |   " << character[2] << "   \n";
 		cout << "_______|_______|_______\n";
